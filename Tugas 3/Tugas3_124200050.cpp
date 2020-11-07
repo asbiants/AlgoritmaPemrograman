@@ -5,8 +5,6 @@ main ()
 { string a, b;
   float hr1, ts1, as1, ttl1, hr2, ts2, as2, ttl2;
   int matakuliah;
-  a = "asbian";
-  b = "124200050";
   cout << "=============================================\n";
   cout << setw (30) << "Login Akun \n";
   cout << "=============================================\n";
