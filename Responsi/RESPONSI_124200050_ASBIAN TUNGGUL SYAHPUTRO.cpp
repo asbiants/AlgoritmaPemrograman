@@ -114,9 +114,9 @@ void lihat()
 		
 		for(j = 0; j < byk_bahan[i]; j++)
 		{ 
-			cout<<"\tBahan " << j+1 << endl;
-			cout<<"\tNama   : " << nm_bahan[i][j] << endl;
-			cout<<"\tHarga  : " << jmlh_bahan[i][j]*hrg_bahan[i][j] << endl;
+			cout << "\tBahan " << j+1 << endl;
+			cout << "\tNama   : " << nm_bahan[i][j] << endl;
+			cout << "\tHarga  : " << jmlh_bahan[i][j]*hrg_bahan[i][j] << endl;
 			harga = (jmlh_bahan[i][j] * hrg_bahan[i][j]);
 			harga_total += harga;
 		}
@@ -142,9 +142,9 @@ void cari()
 			cout << "Nama 		 : " << nm_menu[i] << endl;
 			for(j = 0; j < byk_bahan[i]; j++)
 			{ 
-				cout <<"\tBahan "<< j+1 << endl;
-				cout <<"\tNama 	: "<< nm_bahan[i][j] << endl;
-				cout<<"\tHarga 	: "<< jmlh_bahan[i][j] * hrg_bahan[i][j] << endl;
+				cout << "\tBahan "<< j+1 << endl;
+				cout << "\tNama 	: "<< nm_bahan[i][j] << endl;
+				cout << "\tHarga 	: "<< jmlh_bahan[i][j] * hrg_bahan[i][j] << endl;
 				harga = (jmlh_bahan[i][j] * hrg_bahan[i][j]);
 				harga_total += harga;
 			}
